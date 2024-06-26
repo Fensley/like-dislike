@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: #d5d6bf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+}
+.container {
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  width: 480px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.secont-ctn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+.one {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.one-test {
+  border-bottom: 1px solid rgb(209, 199, 199);
+  margin-bottom: -5px;
+  width: 100%;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+  color: gray;
+}
+/* graph */
+.list-ctn {
+  position: relative;
+  margin-bottom: -20px;
+}
+.gr-one {
+  background-color: #373568;
+  width: 10px;
+  height: 157px;
+  position: absolute;
+  left: 50px;
+  bottom: 8px;
+}
+.gr-child {
+  background-color: #b23357;
+  width: 10px;
+  height: 76px;
+  position: absolute;
+  left: 63px;
+  bottom: 8px;
+}
+/*  */
+.gr-two {
+  background-color: #373568;
+  width: 10px;
+  height: 100px;
+  position: absolute;
+  left: 100px;
+  bottom: 8px;
+}
+.gr-child-two {
+  background-color: #b23357;
+  width: 10px;
+  height: 35px;
+  position: absolute;
+  left: 113px;
+  bottom: 8px;
+}
+/*  */
+.gr-twee {
+  background-color: #373568;
+  width: 10px;
+  height: 60px;
+  position: absolute;
+  left: 157px;
+  bottom: 8px;
+}
+.gr-child-twee {
+  background-color: #b23357;
+  width: 10px;
+  height: 19px;
+  position: absolute;
+  left: 170px;
+  bottom: 8px;
+}
+/*  */
+.gr-four {
+  background-color: #373568;
+  width: 10px;
+  height: 140px;
+  position: absolute;
+  left: 207px;
+  bottom: 8px;
+}
+.gr-child-four {
+  background-color: #b23357;
+  width: 10px;
+  height: 75px;
+  position: absolute;
+  left: 220px;
+  bottom: 8px;
+}
+/*  */
+.gr-five {
+  background-color: #373568;
+  width: 10px;
+  height: 100px;
+  position: absolute;
+  left: 257px;
+  bottom: 8px;
+}
+.gr-child-five {
+  background-color: #b23357;
+  width: 10px;
+  height: 75px;
+  position: absolute;
+  left: 270px;
+  bottom: 8px;
+}
+/*  */
+.gr-six {
+  background-color: #373568;
+  width: 10px;
+  height: 150px;
+  position: absolute;
+  left: 307px;
+  bottom: 8px;
+}
+.gr-child-six {
+  background-color: #b23357;
+  width: 10px;
+  height: 175px;
+  position: absolute;
+  left: 320px;
+  bottom: 8px;
+}
+/*  */
+.gr-seventh {
+  background-color: #373568;
+  width: 10px;
+  height: 50px;
+  position: absolute;
+  left: 367px;
+  bottom: 8px;
+}
+.gr-child-seventh {
+  background-color: #b23357;
+  width: 10px;
+  height: 20px;
+  position: absolute;
+  left: 380px;
+  bottom: 8px;
+}
+/*  */
+.gr-eight {
+  background-color: #373568;
+  width: 10px;
+  height: 30px;
+  position: absolute;
+  left: 407px;
+  bottom: 8px;
+}
+.gr-child-eight {
+  background-color: #b23357;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 415px;
+  bottom: 8px;
+}
+/*  */
+
+.one > span {
+  color: gray;
+}
+.color {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.color button {
+  padding: 10px 20px;
+  border: 2px solid;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.color button:hover {
+  background-color: #b23357;
+  border: 2px solid transparent;
+  color: white;
+  transition: 0.3s ease;
+}
+.yyy:hover {
+  opacity: 0.8;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+@media (max-width: 508px) {
+  /* not done yet */
+}
